@@ -51,7 +51,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-30 contx ${
+      className={`fixed top-0 left-0 w-full z-[3000] contx ${
         scrolled ? "backdrop-blur-md" : ""
       }`}
     >

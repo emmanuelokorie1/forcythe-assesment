@@ -70,25 +70,25 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-50 overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+          " flex min-w-full shrink-0 gap-4 bg-primary w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
-            style={{
-              background:
-                "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
-            }}
+            className="w-fit relative rounded-2xl flex-shrink-0"
+            // style={{
+            //   background:
+            //     "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
+            // }}
             key={idx}
           >
             <blockquote>
@@ -102,7 +102,7 @@ export const InfiniteMovingCards = ({
                 width="340"
                 height="340"
                 decoding="async"
-                className="overflow-hidden w-full h-full"
+                className="overflow-hidden w-fit h-[340px] object-cover"
                 src={item}
               />
             </blockquote>

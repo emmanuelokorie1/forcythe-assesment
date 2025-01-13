@@ -21,7 +21,7 @@ function Card() {
         />
       </div>
 
-      <div>
+      <div className="pb-5">
         <Button showPlayIcon={true} text="Book a Call" />
       </div>
     </div>
