@@ -60,7 +60,7 @@ export const MenuItem = ({
 };
 
 export const Menu = ({
-    setActive,
+    // setActive,
     children,
 }: {
     setActive: (item: string | null) => void;

@@ -107,7 +107,7 @@ const Navbar = () => {
               <ul className="flex flex-col">
                 {linkTabsMobile?.map((e, i) => {
                   return (
-                    <li className="w-full py-2.5">
+                    <li className="w-full py-2.5" key={i}>
                       <Link href={e?.link}>
                         <span className="w-full text-base py-3">{e?.name}</span>
                       </Link>
