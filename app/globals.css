@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contx {
+  @apply lg:px-[7rem] md:px-[3rem] sm:px-[2rem] px-[1rem];
+}
+
+body{
+  background-color: #030516;
+}
