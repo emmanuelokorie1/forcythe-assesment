@@ -3,7 +3,6 @@ import background from "../../public/images/hero-background.svg";
 import Image from "next/image";
 import Card from "./Card";
 import { Marquee } from "../Marquee";
-import Discover from "../DiscoverSection/Discover";
 import Spotlight from "../SpotlightSection/Spotlight";
 
 const HeroSection = () => {
@@ -28,10 +27,6 @@ const HeroSection = () => {
       <div>
         <Marquee />
       </div>
-{/* 
-      <div>
-        <Discover />
-      </div> */}
 
       <div>
         <Spotlight />

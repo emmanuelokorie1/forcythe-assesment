@@ -1,7 +1,6 @@
 import React from "react";
 import { TextGenerateEffect } from "../ui/TextGenerateEffect";
 import AnimatedText from "../AnimatedText";
-import FullAnimatedText from "../FullAnimatedText";
 import Button from "../Button";
 
 function Card() {

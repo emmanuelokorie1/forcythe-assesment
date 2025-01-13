@@ -6,7 +6,6 @@ import launch from '../../public/images/launch.svg';
 import AnimatedText from '../AnimatedText';
 import { useState } from 'react';
 import Image from 'next/image';
-import { TextGenerateEffect } from '../ui/TextGenerateEffect';
 import Button from '../Button';
 
 function Spotlight() {

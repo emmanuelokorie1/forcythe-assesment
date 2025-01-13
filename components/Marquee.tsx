@@ -1,6 +1,4 @@
 "use client";
-
-import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 
 import marqueeImg1 from "../public/images/marquee-img-1.svg";

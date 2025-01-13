@@ -1,7 +1,5 @@
 import HeroSection from "@/components/HeroSection/HeroSection";
 import Navbar from "@/components/Layouts/Navbar";
-import Spotlight from "@/components/SpotlightSection/Spotlight";
-import Image from "next/image";
 
 export default function Home() {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import AnimatedText from "../AnimatedText";
-import DiscoverToggle from "./DiscoverToggle";
-import App1, { MenuItem } from "../ui/MenuItem";
+import App1 from "../ui/MenuItem";
 
 function Discover() {
   return (
